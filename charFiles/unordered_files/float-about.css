@@ -1,0 +1,23 @@
+.leftAlign{
+    float: left;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 25%;
+    text-align: center;
+    position: absolute;
+    background-color: white;
+}
+/* #aboutBody{
+    background-image: url("city.jpg");
+} */
+#AboutBgImg{
+    position: relative;
+    text-align: center;
+}
+/* #AboutHeader{
+    position: absolute;
+    height: 200px;
+    text-align: center;
+    font-size: 80px;
+} */

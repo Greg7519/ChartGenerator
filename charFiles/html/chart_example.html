@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "css_js/stylesheets/style.css">
+    <link rel = "stylesheet" href = "css_js/stylesheets/float-about.css">
+    <link rel = "stylesheet" href = "css_js/stylesheets/preloader.css">
+    <link rel = "stylesheet" href = "css_js/stylesheets/form.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.1.1/chart.umd.js"></script>
+    
+    
+</head>
+<body id = "aboutBody">
+    <div id = "preloader">
+        <!-- <div class = "preloaderCenter">
+            <div class = "ring"></div>
+            <span id = "preloaderText">loading...</span>
+        </div> -->
+        <div id = "preloaderAnim">
+          <div class = "tower">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="ball"></div>
+            <br>
+          </div>
+          <div id = "preloaderText">
+           <h2 class = "bounce">
+            <span class = 'L'>L</span>
+            <span class = 'O'>O</span>
+            <span class = "A">A</span>
+            <span class = "D">D</span>
+            <span class = "I">I</span>
+            <span class = "N">N</span>
+            <span class = "G">G</span>
+           </h2>
+          </div>
+        </div>
+          
+    </div>
+    <div id = "navWrapper">
+        <ul id = "navbar" style="display: none;">
+          <li class = "left" ><a href = "chart_gen.html">Main page</a></li>
+          <li class = "right" id = "active"><a href = "chart_example.html">About</a></li>
+        </ul>
+    </div>
+    <div id = "AfterLoad" style="display: none;">
+      <div id = "bgImg">
+        <img src="css_js/stylesheets/images/bg.jpg" style="width: 100%; height: 100%; scale: 1.04;">
+      </div>
+      <div class = "center-align">
+        <canvas id = 'myChart'></canvas>
+
+      </div>
+      <!-- <div id = 'AboutHeader'>
+        <img id = 'bgImg' src = "images/cyber.jpg" style="height: 320px;">
+      </div> -->
+    
+    </div>
+    <script src = "css_js/scripts/preloader.js"></script>
+    <script src = "css_js/scripts/about.js"></script>
+    
+</body>
+</html>
