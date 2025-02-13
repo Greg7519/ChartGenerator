@@ -1,0 +1,88 @@
+.textCont{
+    float: left;
+}
+#FormTitle{
+    text-align: center;
+    font-size: 40px;
+}
+/* #ChartForm{
+    /* position: relative;
+    margin: auto; */
+    /* display: flex; */
+
+    /* position: relative;
+    justify-content: center;
+    align-items: center; */
+    /* width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+   
+}  */
+#userInputForm{
+    margin: auto;
+    border-radius: 5px;
+    padding: 45px;
+    background-color: #f2f2f2;
+    /* display: inline-block; */
+   
+}
+input[type = text]{
+ 
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    /* Added in order to not escape container */
+    box-sizing: border-box; 
+    margin-bottom: 20px;
+   
+
+}
+input[type = "submit"]{
+    width: 40%;
+    background-color: rgb(2, 102, 216);
+    color:white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+
+}
+#myChart{
+    background-color: #f2f2f2;
+}
+.floatLeft{
+    float: left;
+    
+}
+.floatRight{
+    float: right;
+}
+#submitBtn{
+    float: right;
+    margin-left: 40px;
+}
+.center-align{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+
+}
+#myChart{
+    margin: auto;
+    width: 1280px !important;
+}
+

@@ -1,0 +1,289 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: white
+}
+#preloader{
+    position: relative;
+    z-index: 2;
+}
+.preloaderCenter{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.ring{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: ring 2s linear infinite ;
+}
+.ring:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255, 255, 255, .3);
+}
+@keyframes ring{
+    0%{
+        transform: rotate(0deg);
+        box-shadow: 1px 5px 2px #e65c00;
+    }
+    50%{
+        transform: rotate(180deg);
+        box-shadow: 1px 5px 2px #18b201;
+    }
+    100%{
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 2px #0456c8;
+    }
+
+
+
+}
+
+#preloaderText{
+    color: #737373;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 200px;
+    animation: text 3s ease-in-out infinite;
+}
+@keyframes text{
+    50%{
+        color: black;
+    }
+} */
+body{
+    background-color: rgb(255, 60, 60);
+}
+#preloaderAnim{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.tower{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.bar:nth-child(1){
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 50%;
+    background: white;
+    /* background: #ff0b0b; */
+    transform-origin: center bottom;
+    left: 0;
+    box-shadow: 1px 1px 0 #00000033,
+    2px 2px 0 #00000033,
+    3px 3px 0 #00000033;
+    animation: Up1 0.75s infinite;
+}
+@keyframes Up1{
+    0%{
+        transform:scale(1, .2) ;
+    }
+    40%{
+        transform:scale(1, .2) ;
+    }
+    50%{
+        transform:scale(1, 1) ;
+        /* background-color: linear-gradient(to right,rgb(0, 82, 212), rgb(67, 100, 247), rgb(111, 177, 252)); */
+    }
+    90%{
+        transform:scale(1, 1) ;
+    }
+    100%{
+        transform:scale(1, .2) ;
+        /* background-color: linear-gradient(to right, rgb(255, 67, 5), rgb(245, 135, 0)); */
+        /* background: #ff0b0b; */
+    }
+}
+.bar:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 50%;
+    background: white;
+    transform-origin: center bottom;
+    left: 30px;
+    box-shadow: 1px 1px 0 #00000033,
+    2px 2px 0 #00000033,
+    3px 3px 0 #00000033;
+    animation: Up2 0.75s infinite;
+}
+@keyframes Up2{
+    0%{
+        transform:scale(1, .4) ;
+    }
+    40%{
+        transform:scale(1, .4) ;
+    }
+    50%{
+        transform:scale(1, .8) ;
+    }
+    90%{
+        transform:scale(1, .8) ;
+    }
+    100%{
+        transform:scale(1, .4) ;
+    }
+}
+.bar:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 50%;
+    background: white;
+    transform-origin: center bottom;
+    left: 60px;
+    box-shadow: 1px 1px 0 #00000033,
+    2px 2px 0 #00000033,
+    3px 3px 0 #00000033;
+    animation: Up3 0.75s infinite;
+}
+@keyframes Up3{
+    0%{
+        transform:scale(1, .6) ;
+    }
+    100%{
+        transform:scale(1, .6) ;
+    }
+}
+.bar:nth-child(4){
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 50%;
+    background: white;
+    transform-origin: center bottom;
+    left: 90px;
+    box-shadow: 1px 1px 0 #00000033,
+    2px 2px 0 #00000033,
+    3px 3px 0 #00000033;
+    animation: Up4 0.75s infinite;
+}
+@keyframes Up4{
+    0%{
+        transform:scale(1, .8) ;
+    }
+    40%{
+        transform:scale(1, .8) ;
+    }
+    50%{
+        transform:scale(1, .4) ;
+    }
+    90%{
+        transform:scale(1, .4) ;
+    }
+    100%{
+        transform:scale(1, .8) ;
+    }
+}
+.bar:nth-child(5){
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 50%;
+    background: white;
+    transform-origin: center bottom;
+    left: 120px;
+    box-shadow: 1px 1px 0 #00000033,
+    2px 2px 0 #00000033,
+    3px 3px 0 #00000033;
+    animation: Up5 0.75s infinite;
+}
+@keyframes Up5{
+    0%{
+        transform:scale(1, 1) ;
+    }
+    40%{
+        transform:scale(1, 1) ;
+    }
+    50%{
+        transform:scale(1, .2) ;
+    }
+    90%{
+        transform:scale(1, .2) ;
+    }
+    100%{
+        transform:scale(1, 1) ;
+    }
+}
+#preloader{
+    height: 100%;
+    width: 100%;
+    scale:(1.02);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+#preloaderText{
+    margin: 40px;
+    
+}
+.bounce{
+    font-family:  Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+    display: inline-flex;
+    justify-content: center;
+    
+}
+.bounce > span{
+    color: white;
+    text-shadow: 0 3px #00000033;
+}
+@keyframes bounce{
+    0%{transform: scale(1, 1) translateY(0);}
+    10%{transform: scale(1.1, .9) translateY(0);}
+    30%{transform: scale(.9, 1.1)  translateY(-35px);}
+    50%{transform: scale(1.05, .95) translateY(0);}
+    58%{transform: scale(1, 1) translateY(-7px);}
+    65%{transform: scale(1, 1) translateY(0);}
+    100%{transform: scale(1, 1) translateY(0);}
+}
+.L{
+    animation: bounce 1s ease infinite;
+}
+.O{
+    animation: bounce 1s ease infinite .1s;
+}
+.A{
+    animation: bounce 1s ease infinite .2s;
+}
+
+.D{
+    animation: bounce 1s ease infinite .3s;
+}
+
+.I{
+    animation: bounce 1s ease infinite .4s;
+}
+.N{
+    animation: bounce 1s ease infinite .5s;
+}
+
+.G{
+    animation: bounce 1s ease infinite .6s;
+}
+
+
+
