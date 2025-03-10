@@ -1,6 +1,6 @@
 var preloader = document.getElementById("preloader");
 const navbar = document.getElementById("navbar");
-setTimeout(hidePreloader, "2000");
+setTimeout(hidePreloader, "4000");
 const afterLoad = document.getElementById("AfterLoad");
 const r = document.querySelector(":root");
 const body = document.getElementsByTagName("BODY")[0];
