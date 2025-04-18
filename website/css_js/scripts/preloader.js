@@ -1,6 +1,6 @@
 var preloader = document.getElementById("preloader");
 const navbar = document.getElementById("navbar");
-addEventListener("DOMContentLoaded", ()=>{
+addEventListener("load", ()=>{
     setTimeout(()=>{
         hidePreloader();
     },1000)})
