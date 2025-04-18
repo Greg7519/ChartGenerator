@@ -101,6 +101,11 @@ input[type = "submit"]{
     .center-align{
        margin-left: 10%;
        width:80%;
+       overflow: hidden;
        margin-right: 10%;
+    }
+    #userInputForm{
+        margin: 0;
+        border-radius: 5px;
     }
 }
