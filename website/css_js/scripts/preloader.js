@@ -1,11 +1,10 @@
 var preloader = document.getElementById("preloader");
 const navbar = document.getElementById("navbar");
-onload = () =>{
+addEventListener("DOMContentLoaded", ()=>{
     setTimeout(()=>{
         hidePreloader();
-    },1000)
- 
-}
+    },1000)})
+   ;
 const afterLoad = document.getElementById("AfterLoad");
 const r = document.querySelector(":root");
 const body = document.getElementsByTagName("BODY")[0];

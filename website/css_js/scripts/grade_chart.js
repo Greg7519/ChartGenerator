@@ -39,12 +39,12 @@ submitBtn.onclick = function(){
     let temp_subject = subjects.value;
     subjects.value = "";
     if(subjects_array.includes(temp_subject)){
-      alert("Subject already exist!")
+      alert("Data already exist!")
       subjects.value = "";
       grade.value = "";
     }
     else if (temp_subject == ""){
-      alert("Please enter a valid subject!");
+      alert("Please enter some data!");
     }
     else if(chartLabels.length == 0){
       window.alert("Please enter a chart label");
