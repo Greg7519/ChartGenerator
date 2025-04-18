@@ -1,4 +1,5 @@
 const aboutChartCont = document.getElementById("myChart");
+
 let aboutChart  = new Chart(aboutChartCont, {
     type: 'bar',
     data: {
@@ -19,3 +20,6 @@ let aboutChart  = new Chart(aboutChartCont, {
       }
     }
   });
+
+  aboutChartCont.style.width = "80%";
+  aboutChartCont.style.minHeight = "20%";
