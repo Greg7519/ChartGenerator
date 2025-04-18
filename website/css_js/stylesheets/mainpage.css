@@ -175,6 +175,8 @@ html,body{
     background-image:  linear-gradient(45deg, rgb(252, 165, 66), rgb(253, 80, 0));
     background-color: black;
     background-clip: text;
+    width:100%;
+    text-align: center;
     text-transform: uppercase;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -185,4 +187,26 @@ html,body{
 }
 .spacerv40{
     margin: 40px;
+}
+@media screen and (max-width:600px) {
+    .center-align-vert{
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 20px;
+        align-items: flex-start;
+        min-height: 100vh;
+    
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .flex-container a{
+     
+        margin: 10px;
+    }
+    .roundedButton{
+        margin: 0 25px;
+    }
 }
