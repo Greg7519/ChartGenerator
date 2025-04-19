@@ -6,7 +6,9 @@ body{
     margin: 0;
     width:100vw;
     background-image: url("/website/css_js/stylesheets/images/bg.jpg");
+    background-size: cover;
     position: absolute ;
+    background-repeat: no-repeat;
 }
 #navbar{
     z-index: 2;
