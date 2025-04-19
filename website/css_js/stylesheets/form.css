@@ -87,8 +87,9 @@ input[type = "submit"]{
 }
 
 @media screen and (max-width:600px) {
-    body{
+    body,html{
         height:150vh;
+        overflow:scroll;
     }
     .buttons{
         flex-direction: column;
