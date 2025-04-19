@@ -92,7 +92,6 @@ makeBtn.onclick = function(){
       // myCanvas.style.scale = 0.9;
       UserInputForm.style.display = "none";
       afterload.style.display = "none";
-      body.style.backgroundImage = "url(css_js/stylesheets/images/chart_bg.jpg)";
       body.style.height = "150vh";
      
     }

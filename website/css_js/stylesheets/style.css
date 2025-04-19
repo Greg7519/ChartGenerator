@@ -5,6 +5,7 @@ html, body{
 body{
     margin: 0;
     width:100vw;
+    background-image: url("/website/css_js/stylesheets/images/bg.jpg");
     position: absolute ;
 }
 #navbar{
