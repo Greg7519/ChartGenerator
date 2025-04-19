@@ -87,6 +87,9 @@ input[type = "submit"]{
 }
 
 @media screen and (max-width:600px) {
+    body{
+        height:150vh;
+    }
     .buttons{
         flex-direction: column;
         display: flex;

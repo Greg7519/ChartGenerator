@@ -23,9 +23,13 @@ body::-webkit-scrollbar{
 }
 #AfterLoad{
     position: absolute;
+    
+}
+/* #addImage{
     background-image: url("/website/css_js/stylesheets/images/chart_bg.jpg");
     background-size: cover;
-}
+} */
+
 .spacer20{
     height: 20px;
 }

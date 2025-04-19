@@ -2,7 +2,7 @@ const subjects = document.getElementById('subjCont');
 const grade = document.getElementById('gradeCont');
 const ctx = document.getElementById('myChart');
 const submitBtn = document.getElementById("submitBtn");
-// const CreateBtn = document.getElementById("CreateChart");
+const makeBtn = document.getElementById("CreateChart");
 const UserInputForm = document.getElementById("userInputForm");
 const hideForm = document.getElementById("ChartForm");
 const myCanvas = document.getElementById("myChart");
@@ -70,7 +70,7 @@ submitBtn.onclick = function(){
 }
 
 
-CreateBtn.onclick = function(){
+makeBtn.onclick = function(){
   if(subjects_array.length == 0 && grade_array.length == 0 && chartLabels == 0){
     window.alert("You didnt enter any data!");
   }

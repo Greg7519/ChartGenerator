@@ -22,4 +22,5 @@ let aboutChart  = new Chart(aboutChartCont, {
   });
 
   aboutChartCont.style.width = "80%";
-  aboutChartCont.style.minHeight = "20%";
+  aboutChartCont.style.height = "40%"
+  aboutChartCont.style.maxHeight = "50%";
