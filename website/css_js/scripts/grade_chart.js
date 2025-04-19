@@ -3,6 +3,7 @@ const grade = document.getElementById('gradeCont');
 const ctx = document.getElementById('myChart');
 const submitBtn = document.getElementById("submitBtn");
 const makeBtn = document.getElementById("CreateChart");
+const afterload = document.getElementById("AfterLoad");
 const UserInputForm = document.getElementById("userInputForm");
 const hideForm = document.getElementById("ChartForm");
 const myCanvas = document.getElementById("myChart");
@@ -82,15 +83,17 @@ makeBtn.onclick = function(){
     function showCanvas(){
       hidePreloader()
       CanvasCont.style.display = "flex";
-      bgImg.style.backgroundImage = "url(css_js/stylesheets/images/chart_bg.jpg)";
-      bgImg.style.display = "block";
+     
+      
       // CanvasCont.style.display = "block";
       myCanvas.style.display = "inline-block";
-      myCanvas.style.width = "100%";
+      myCanvas.style.width = "50%";
       myCanvas.style.height = "auto"
       // myCanvas.style.scale = 0.9;
       UserInputForm.style.display = "none";
-      afterLoad.style.display = "none";
+      afterload.style.display = "none";
+      body.style.backgroundImage = "url(css_js/stylesheets/images/chart_bg.jpg)";
+      body.style.height = "150vh";
      
     }
     
@@ -157,7 +160,7 @@ makeBtn.onclick = function(){
     // // ImageLink.href = myImage
     // // ImageLink.download = "myChart.png"
     // // downButton.style.display = "block";
-  
+   showCanvas()
   
   }
 } 
